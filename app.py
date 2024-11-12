@@ -62,6 +62,9 @@ def get_star_rating(rating, size=24):
 
 @app.route('/<rating>/')
 def star_rating(rating):
+    if not rating:
+        return redirect("https://github.com/GoulartNogueira/Star-Rating/")
+    
     try:
         rating = float(rating)
     except ValueError:
