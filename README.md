@@ -39,11 +39,11 @@ To display a star rating of 2.7 with a star size of 48 pixels, use the following
 | `rating`  | The rating value to display (between 0 and 5) | 0             |
 | `size`    | The size of each star in pixels               | 24            |
 
-| Rating | Size | Star Rating Image                                  | Markdown                                                          |
-| ------ | ---- | -------------------------------------------------- | ----------------------------------------------------------------- |
-| 3.3    | 6    | ![Star Rating](http://127.0.0.1:5000/3.3/?size=6)  | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=6)`  |
-| 3.3    | 12   | ![Star Rating](http://127.0.0.1:5000/3.3/?size=12) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=12)` |
-| 3.3    | 24   | ![Star Rating](http://127.0.0.1:5000/3.3/?size=24) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=24)` |
-| 3.3    | 32   | ![Star Rating](http://127.0.0.1:5000/3.3/?size=32) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=32)` |
-| 3.3    | 48   | ![Star Rating](http://127.0.0.1:5000/3.3/?size=48) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=48)` |
-| 3.3    | 96   | ![Star Rating](http://127.0.0.1:5000/3.3/?size=96) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=96)` |
+| Rating | Size | Star Rating Image                                               | Markdown                                                          |
+| ------ | ---- | --------------------------------------------------------------- | ----------------------------------------------------------------- |
+| 3.3    | 6    | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=6)  | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=6)`  |
+| 3.3    | 12   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=12) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=12)` |
+| 3.3    | 24   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=24) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=24)` |
+| 3.3    | 32   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=32) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=32)` |
+| 3.3    | 48   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=48) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=48)` |
+| 3.3    | 96   | ![Star Rating](https://starrating-beta.vercel.app/3.3/?size=96) | `![Star Rating](https://starrating-beta.vercel.app/3.3/?size=96)` |
