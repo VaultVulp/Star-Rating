@@ -60,11 +60,14 @@ def get_star_rating(rating, size=24):
     star_svg += '</svg>'
     return star_svg
 
+
+@app.route('/')
+def redirect_to_github():
+    return redirect("https://github.com/GoulartNogueira/Star-Rating/", code=302)
+
+
 @app.route('/<rating>/')
 def star_rating(rating):
-    if not rating:
-        return redirect("https://github.com/GoulartNogueira/Star-Rating/")
-    
     try:
         rating = float(rating)
     except ValueError:
