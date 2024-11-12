@@ -19,14 +19,18 @@ This service is deployed on [Vercel](https://vercel.com) and accessible via the 
 | Parameter | Description                                   | Default Value |
 | --------- | --------------------------------------------- | ------------- |
 | `rating`  | The rating value to display (between 0 and 5) | 0             |
+| `size`    | The size of each star in pixels               | 24            |
 
 ---
 
 ## Example
 
 To display a star rating of 2.7, use the following URL:
+
 `https://starrating-beta.vercel.app/2.7/`
 
 This will generate an SVG image showing a star rating of 2.7 out of 5.
 
 To display a star rating of 2.7 with a star size of 48 pixels, use the following URL:
+
+`https://starrating-beta.vercel.app/2.7/?size=48`
