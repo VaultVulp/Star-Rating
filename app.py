@@ -50,6 +50,29 @@ def get_star_rating(rating, size=24):
     star_svg += '</svg>'
     return star_svg
 
+
+# Moon rating
+
+def get_moon_phase(percentage):
+    if percentage <= 0.1:
+        return "🌑"  # Empty
+    elif percentage <= 0.3:
+        return "🌘"  # Waning crescent
+    elif percentage <= 0.6:
+        return "🌗"  # Half
+    elif percentage <= 0.9:
+        return "🌖"  # Waxing gibbous
+    else:
+        return "🌕"  # Full
+
+def get_moon_rating(rating):
+    rating = max(min(5, rating), 0)
+    output = []
+    for i in range(5):
+        moon_value = max(0, min(1, rating - i))
+        output.append(get_moon_phase(moon_value))
+    return ''.join(output)
+
 @app.route('/')
 def redirect_to_github():
     return redirect("https://github.com/GoulartNogueira/Star-Rating/", code=302)
@@ -67,5 +90,24 @@ def star_rating(rating):
     response.headers['Content-Type'] = 'image/svg+xml'
     return response
 
+@app.route('/moon/<rating>/')
+def moon_rating(rating):
+    try:
+        rating = float(rating)
+    except ValueError:
+        return "Invalid rating value", 400
+    
+    moon_rating_output = get_moon_rating(rating)
+    response = make_response(moon_rating_output)
+    response.headers['Content-Type'] = 'text/plain; charset=utf-8'
+    return response
+
+
 if __name__ == '__main__':
+    path = "http://127.0.0.1:5000"
+    print(f"Running on {path}")
+    print("Examples:")
+    print(f"  {path}/3.5/")
+    print(f"  {path}/moon/4.2/")
+    print("Press CTRL+C to exit")
     app.run(debug=True)
