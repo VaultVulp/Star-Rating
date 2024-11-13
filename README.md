@@ -1,10 +1,16 @@
 # Dynamic Star Rating
 
-Generates a dynamic star rating image (SVG) using Python, which is deployed freely via Vercel.
+Generates a dynamic star rating image (SVG) using Python, which is deployed freely via Vercel
 
-Inspired by [![guibranco/progressbar](https://img.shields.io/badge/guibranco%2Fprogressbar-black?style=flat&logo=github)](https://github.com/guibranco/progressbar).
+Example: ![Star Rating](https://starrating-beta.vercel.app/4.3/)
 
 This service is deployed on [Vercel](https://vercel.com) and accessible via the domain [starrating-beta.vercel.app](https://starrating-beta.vercel.app).
+
+---
+
+Inspired by the dynamic progress bar: ![Progress](https://progress-bar.xyz/28/)
+From [![guibranco/progressbar](https://img.shields.io/badge/guibranco%2Fprogressbar-black?style=flat&logo=github)](https://github.com/guibranco/progressbar)
+
 
 ---
 
