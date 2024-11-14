@@ -57,16 +57,16 @@ To display a star rating of 2.7 with a star size of 48 pixels, use the following
 
 ## Moon Examples
 
-To display a moon rating of 3.5, use the following URL:
+To display a moon rating of 3.3, use the following URL:
 
-`https://starrating-beta.vercel.app/moon/3.5/`
+`https://starrating-beta.vercel.app/moon/3.3/`
 
-This will generate a text representation of the moon rating of 3.5 out of 5.
+This will generate a text representation of the moon rating of 3.3 out of 5: 🌕🌕🌕🌘🌑
 
 | Rating | Moon Rating Image                                       | Markdown                                                  |
 | ------ | ------------------------------------------------------- | --------------------------------------------------------- |
-| 1.0    | 🌑🌑🌑🌑🌑 | `![Moon Rating](https://starrating-beta.vercel.app/moon/1.0/)` |
-| 2.6    | 🌑🌑🌑🌑🌑 | `![Moon Rating](https://starrating-beta.vercel.app/moon/2.6/)` |
-| 3.3    | 🌑🌑🌑🌑🌑 | `![Moon Rating](https://starrating-beta.vercel.app/moon/3.3/)` |
-| 4.0    | 🌑🌑🌑🌑🌑 | `![Moon Rating](https://starrating-beta.vercel.app/moon/4.0/)` |
-| 5.0    | 🌑🌑🌑🌑🌑 | `![Moon Rating](https://starrating-beta.vercel.app/moon/5.0/)` |
+| 1.0    | 🌕🌑🌑🌑🌑 | `![Moon Rating](https://starrating-beta.vercel.app/moon/1.0/)` |
+| 2.6    | 🌕🌕🌑🌑🌑 | `![Moon Rating](https://starrating-beta.vercel.app/moon/2.6/)` |
+| 3.3    | 🌕🌕🌕🌑🌑 | `![Moon Rating](https://starrating-beta.vercel.app/moon/3.3/)` |
+| 4.0    | 🌕🌕🌕🌕🌑 | `![Moon Rating](https://starrating-beta.vercel.app/moon/4.0/)` |
+| 5.0    | 🌕🌕🌕🌕🌕 | `![Moon Rating](https://starrating-beta.vercel.app/moon/5.0/)` |
